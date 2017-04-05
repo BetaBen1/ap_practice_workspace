@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;betaben.appractice&apos; to &apos;betaben.main&apos;&#x0A;- Original project: &apos;2016FreeResponseQuestion3&apos;&#x0A;- Original element: &apos;2016FreeResponseQuestion3/src/betaben.appractice&apos;&#x0A;- Renamed element: &apos;2016FreeResponseQuestion3/src/betaben.main&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;betaben.appractice&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;betaben.appractice" name="betaben.main" qualified="false" references="true" stamp="1491405549857" textual="false" version="1.0"/>
+</session>
