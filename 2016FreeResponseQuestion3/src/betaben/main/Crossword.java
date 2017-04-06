@@ -4,4 +4,36 @@ public class Crossword {
 
 	private Square[][] puzzle;
 	
+	public Crossword(boolean[][] blackSquares){
+		puzzle = new Square[][];
+		for(int r; r<blackSquares.length; r++){
+			for(int c; c<blackSquares.length; c++){
+				if(blackSquares[r][c]==true){
+					puzzle[r][c].isBlack==true;
+				}
+				toBeLabeled(r, c, blackSquares);
+			}
+		}
+		if(blackSquares[r][c]==true){
+			
+		}
+		
+	}
+	
+	private boolean toBeLabeled(int r, int c, boolean[][] blackSquares){
+		/* Returns true if the square at row r, column c should be
+		 * labeled with a positive number;
+		 * Returns false otherwise.
+		 * The square at row r, column c is black if and only if
+		 * blackSquares[r][c] is true.
+		 * Precondition: r and c are valid indexes in blackSquares.
+		 */
+		if(blackSquares[r][c] == false){
+			if(blackSquares[r+1][c]==true || blackSquares[r][c-1]==true){
+				return true;
+			}
+		}
+		return false;
+	}
+	
 }
