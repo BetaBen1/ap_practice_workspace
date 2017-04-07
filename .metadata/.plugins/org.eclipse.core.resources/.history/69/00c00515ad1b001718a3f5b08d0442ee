@@ -8,10 +8,10 @@ public class Crossword {
 		puzzle = new Square[blackSquares[0].length][blackSquares.length];
 		for(int r = 0; r<blackSquares[0].length; r++){
 			for(int c = 0; c<blackSquares.length; c++){
-				puzzle[r][c] = new Square(blackSquares[r][c], r*c);
-				if(toBeLabeled(r, c, blackSquares)==true){
-					
+				if(blackSquares[r][c]==true){
+					puzzle[r][c]
 				}
+				toBeLabeled(r, c, blackSquares);
 			}
 		}
 
