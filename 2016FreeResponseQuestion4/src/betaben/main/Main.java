@@ -46,7 +46,7 @@ public class Main {
 	
 	public static int leftoverSpaces(List<String> wordList, int formattedLen){
 		int spaces = 0;
-		spaces = formattedLen - totalLetters(wordList);
+		spaces = formattedLen % basicGapWidth(wordList, formattedLen);
 		return spaces;
 	}
 	
