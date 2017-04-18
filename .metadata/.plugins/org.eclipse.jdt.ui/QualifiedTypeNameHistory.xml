@@ -5,6 +5,9 @@
 <fullyQualifiedTypeName name="javax.imageio.metadata.IIOInvalidTreeException"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.INTERNAL"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
 <fullyQualifiedTypeName name="betaben.main.Square"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
