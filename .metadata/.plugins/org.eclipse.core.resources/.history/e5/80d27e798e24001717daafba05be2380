@@ -1,0 +1,22 @@
+package betaben.question;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ClimbingClub {
+
+	private List<ClimbInfo> climbList;
+	
+	public ClimbingClub(){
+		climbList = new ArrayList<>();
+	}
+	
+	public void addClimb(String peakName, int climbTime){
+		climbList.add(new ClimbInfo(peakName, climbTime));
+	}
+	
+//	public int distinctPeakNames(){
+//		
+//	}
+	
+}

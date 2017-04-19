@@ -1,0 +1,42 @@
+package betaben.question;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ClimbingClub {
+
+	private List<ClimbInfo> climbList;
+	
+	public ClimbingClub(){
+		climbList = new ArrayList<>();
+	}
+	
+	// A
+	
+//	public void addClimb(String peakName, int climbTime){
+//		climbList.add(new ClimbInfo(peakName, climbTime));
+//	}
+	
+	// B
+	
+	public void addClimb(String peakName, int climbTime){
+		for(ClimbInfo i : climbList){
+			if(peakName.compareTo(i.getClass().getSimpleName()) == 0){
+				climbList.add(new ClimbInfo(peakName, climbTime));
+			}
+			if(peakName.compareTo(i.getClass().getSimpleName()) < 0){
+				climbList.add(new ClimbInfo(peakName, climbTime));
+			}
+		}
+		
+		for(ClimbInfo i : climbList){
+			System.out.println(i.getName());
+		}
+		
+	}
+	
+//	public int distinctPeakNames(){
+//		
+//	}
+	
+}
