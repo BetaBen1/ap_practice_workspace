@@ -9,7 +9,9 @@
 <fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.awt.print.Printable"/>
+<fullyQualifiedTypeName name="betaben.question.ClimbingClub"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="betaben.question.ClimbInfo"/>
-<fullyQualifiedTypeName name="betaben.question.ClimbingClub"/>
 </qualifiedTypeNameHistroy>

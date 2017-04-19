@@ -10,7 +10,7 @@ public class Main {
 		hikerClub.addClimb("Algonquin", 225);
 		hikerClub.addClimb("Monadnock", 344);
 	
-		ClimbingClub.print();
+		print();
 		
 	}
 

@@ -20,24 +20,17 @@ public class ClimbingClub {
 	
 	// B
 	
-//	public void addClimb(String peakName, int climbTime){
-//		climbList.add(new ClimbInfo(peakName, climbTime));
-//		if(climbList.size() > 0){
-//			for(ClimbInfo i : climbList){
-//				if(climbList.indexOf(i)>0){
-//					if(i.getName().compareTo(climbList.get(climbList.indexOf(i)-1).getName()) > 0){
-//						Collections.rotate(climbList.subList(climbList.indexOf(i), climbList.indexOf(i)+1), -1);
-//					}
-//				}
-//			}
-//		}	
-//	}
-	
 	public void addClimb(String peakName, int climbTime){
-		for(ClimbInfo i : climbList){
-			
-		}
 		climbList.add(new ClimbInfo(peakName, climbTime));
+		if(climbList.size() > 0){
+			for(ClimbInfo i : climbList){
+				if(climbList.indexOf(i)>0){
+					if(i.getName().compareTo(climbList.get(climbList.indexOf(i)-1).getName()) > 0){
+						Collections.rotate(climbList.subList(climbList.indexOf(i), climbList.indexOf(i)+1), -1);
+					}
+				}
+			}
+		}	
 	}
 
 	public static void print(){

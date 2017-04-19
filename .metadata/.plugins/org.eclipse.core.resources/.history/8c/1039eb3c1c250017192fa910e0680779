@@ -34,10 +34,7 @@ public class ClimbingClub {
 //	}
 	
 	public void addClimb(String peakName, int climbTime){
-		for(ClimbInfo i : climbList){
-			
-		}
-		climbList.add(new ClimbInfo(peakName, climbTime));
+		
 	}
 
 	public static void print(){
