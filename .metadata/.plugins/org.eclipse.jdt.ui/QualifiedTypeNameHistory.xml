@@ -11,7 +11,9 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.awt.print.Printable"/>
-<fullyQualifiedTypeName name="betaben.question.ClimbingClub"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="betaben.question.ClimbInfo"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.naming.NamingEnumeration"/>
+<fullyQualifiedTypeName name="betaben.question.ClimbingClub"/>
+<fullyQualifiedTypeName name="betaben.question2.RetroBug"/>
 </qualifiedTypeNameHistroy>
