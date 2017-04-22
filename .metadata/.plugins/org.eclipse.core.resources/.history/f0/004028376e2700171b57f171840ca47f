@@ -1,0 +1,13 @@
+package question2;
+
+public class HiddenWord {
+
+	public HiddenWord(String word){
+		
+	}
+	
+	public void getHint(){
+		
+	}
+	
+}

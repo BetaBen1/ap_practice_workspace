@@ -1,0 +1,34 @@
+package question2;
+
+public class HiddenWord {
+
+	public static String hiddenWord;
+	
+	public HiddenWord(String word){
+		hiddenWord = word;
+	}
+	
+	public static void getHint(String guess){
+		
+		String hint = "";
+		
+		if(guess.contentEquals(hiddenWord)){
+			System.out.println("You correctly guessed the word!");
+			System.out.println("The correct word was " + guess);
+		}
+		for(int i = 0; i<guess.length(); i++){
+			if(guess.charAt(i) == hiddenWord.charAt(i)){
+				hint = hint.substring(i, i) + guess.charAt(i);
+			}
+			
+			if(hiddenWord.contains(guess.substring(i, i))){
+				
+			}
+			if(!hiddenWord.contains(guess.substring(i, i))){
+				
+			}
+		}
+		
+	}
+	
+}

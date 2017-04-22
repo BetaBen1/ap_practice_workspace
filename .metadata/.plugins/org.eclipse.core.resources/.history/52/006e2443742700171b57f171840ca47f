@@ -1,0 +1,17 @@
+package question2;
+
+public class Main {
+
+	static HiddenWord puzzle;
+	
+	public static void main(String[] args) {
+
+//		puzzle = new HiddenWord("HARPS");
+//		HiddenWord.getHint("HUUUS");
+		
+		String string = "Hello World!";
+		System.out.println(string.substring(1, 1));
+		
+	}
+
+}

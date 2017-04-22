@@ -1,0 +1,23 @@
+package question2;
+
+public class HiddenWord {
+
+	public static String hiddenWord;
+	
+	public HiddenWord(String word){
+		this.hiddenWord = word;
+	}
+	
+	public static void getHint(String guess){
+		if(guess.contentEquals(hiddenWord)){
+			System.out.println("You correctly guessed the word!");
+		}
+//		for(int i = 0; i<guess.length(); i++){
+//			if(guess.charAt(i) == hiddenWord.charAt(i)){
+//				
+//			}
+//		}
+		
+	}
+	
+}
