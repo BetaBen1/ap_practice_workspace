@@ -1,0 +1,28 @@
+package question3;
+
+public class SparseArrayEntry {
+
+	private int row;
+	private int col;
+	
+	private int value;
+	
+	public void SpareseArrayEntry(int r, int c, int v){
+		row = r;
+		col = c;
+		value = v;
+	}
+	
+	public int getRow(){
+		return row;
+	}
+	
+	public int getCol(){
+		return col;
+	}
+	
+	public int getValue(){
+		return value;
+	}
+	
+}
