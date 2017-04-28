@@ -6,9 +6,12 @@
 <fullyQualifiedTypeName name="question2.SeatingChart"/>
 <fullyQualifiedTypeName name="question2.Student"/>
 <fullyQualifiedTypeName name="java.awt.print.Printable"/>
+<fullyQualifiedTypeName name="java.lang.InstantiationError"/>
 <fullyQualifiedTypeName name="quesiton1.MusicDownloads"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="quesiton1.DownloadInfo"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
